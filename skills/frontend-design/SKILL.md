@@ -27,15 +27,15 @@ Then implement working code (HTML/CSS/JS, React, Vue, etc.) that is:
 ## Frontend Aesthetics Guidelines
 
 Focus on:
-- **Typography**: Choose fonts that are beautiful, unique, and interesting. Avoid generic fonts like Arial and Inter; opt instead for distinctive choices that elevate the frontend's aesthetics; unexpected, characterful font choices. Pair a distinctive display font with a refined body font.
-- **Color & Theme**: Commit to a cohesive aesthetic. Use CSS variables for consistency. Dominant colors with sharp accents outperform timid, evenly-distributed palettes.
+- **Typography**: Use Century Gothic exclusively — this is the oOh!media brand font. `font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif`. Bold for headings and CTAs; Regular for body copy. No other fonts.
+- **Color & Theme**: Use the oOh!media brand palette. Lead with oOh! Orange `#FF5F2C`. Use Moonlight Purple `#14172A` for dark/premium treatments, Urban Grey `#F2F2F2` for light backgrounds, Standard White `#FFFFFF` as the natural partner. Twilight Purple `#6A2AE1` for accents and data viz. Secondary palette (Ocean Blue `#276EF1`, Coral Peach `#FED8B1`, Sky Blue `#CFE6FA`, Desert Yellow `#FDBA12`) for supporting elements only. Commit to a cohesive oOh! brand aesthetic. Use CSS variables for consistency.
 - **Motion**: Use animations for effects and micro-interactions. Prioritize CSS-only solutions for HTML. Use Motion library for React when available. Focus on high-impact moments: one well-orchestrated page load with staggered reveals (animation-delay) creates more delight than scattered micro-interactions. Use scroll-triggering and hover states that surprise.
 - **Spatial Composition**: Unexpected layouts. Asymmetry. Overlap. Diagonal flow. Grid-breaking elements. Generous negative space OR controlled density.
 - **Backgrounds & Visual Details**: Create atmosphere and depth rather than defaulting to solid colors. Add contextual effects and textures that match the overall aesthetic. Apply creative forms like gradient meshes, noise textures, geometric patterns, layered transparencies, dramatic shadows, decorative borders, custom cursors, and grain overlays.
 
-NEVER use generic AI-generated aesthetics like overused font families (Inter, Roboto, Arial, system fonts), cliched color schemes (particularly purple gradients on white backgrounds), predictable layouts and component patterns, and cookie-cutter design that lacks context-specific character.
+NEVER use non-brand fonts (use Century Gothic only) or non-brand colour schemes (use the oOh!media palette exclusively — lead with oOh! Orange). Avoid predictable layouts and component patterns; avoid cookie-cutter design that lacks context-specific character.
 
-Interpret creatively and make unexpected choices that feel genuinely designed for the context. No design should be the same. Vary between light and dark themes, different fonts, different aesthetics. NEVER converge on common choices (Space Grotesk, for example) across generations.
+Interpret creatively within the oOh! brand — no two designs should look the same even with the same palette. Vary between light and dark treatments, orange-dominant and white-dominant layouts, different compositional approaches. The constraint is the brand, not creativity.
 
 **IMPORTANT**: Match implementation complexity to the aesthetic vision. Maximalist designs need elaborate code with extensive animations and effects. Minimalist or refined designs need restraint, precision, and careful attention to spacing, typography, and subtle details. Elegance comes from executing the vision well.
 

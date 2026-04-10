@@ -107,20 +107,19 @@ With the philosophy AND conceptual framework established, express it through cod
 **CRITICAL: BEFORE writing any HTML:**
 
 1. **Read** `templates/viewer.html` using the Read tool
-2. **Study** the exact structure, styling, and Anthropic branding
+2. **Study** the exact structure, styling, and oOh!media branding
 3. **Use that file as the LITERAL STARTING POINT** - not just inspiration
-4. **Keep all FIXED sections exactly as shown** (header, sidebar structure, Anthropic colors/fonts, seed controls, action buttons)
+4. **Keep all FIXED sections exactly as shown** (header, sidebar structure, oOh! colours/Century Gothic font, seed controls, action buttons)
 5. **Replace only the VARIABLE sections** marked in the file's comments (algorithm, parameters, UI controls for parameters)
 
 **Avoid:**
 - ❌ Creating HTML from scratch
 - ❌ Inventing custom styling or color schemes
-- ❌ Using system fonts or dark themes
 - ❌ Changing the sidebar structure
 
 **Follow these practices:**
 - ✅ Copy the template's exact HTML structure
-- ✅ Keep Anthropic branding (Poppins/Lora fonts, light colors, gradient backdrop)
+- ✅ Keep oOh!media branding (Century Gothic font, oOh! Orange accent, Urban Grey/White backgrounds)
 - ✅ Maintain the sidebar layout (Seed → Parameters → Colors? → Actions)
 - ✅ Replace only the p5.js algorithm and parameter controls
 
@@ -230,7 +229,7 @@ The `templates/viewer.html` file is the foundation. It contains the exact struct
 
 **FIXED (always include exactly as shown):**
 - Layout structure (header, sidebar, main canvas area)
-- Anthropic branding (UI colors, fonts, gradients)
+- oOh!media branding (Century Gothic font, oOh! Orange accent, Urban Grey/White backgrounds)
 - Seed section in sidebar:
   - Seed display
   - Previous/Next buttons
@@ -333,7 +332,7 @@ Add as many control-group divs as there are parameters.
 - Seed controls must work (prev/next/random/jump/display)
 - All parameters must have UI controls
 - Regenerate, Reset, Download buttons must work
-- Keep Anthropic branding (UI styling, not art colors)
+- Keep oOh!media branding (UI styling — Century Gothic, oOh! Orange, Urban Grey/White)
 
 ### USING THE ARTIFACT
 
@@ -369,7 +368,7 @@ Each request is unique. The process involves:
 5. **Build matching UI controls** - Sliders/inputs for those parameters
 
 **The constants**:
-- Anthropic branding (colors, fonts, layout)
+- oOh!media branding (Century Gothic font, oOh! Orange accent, Urban Grey/White backgrounds)
 - Seed navigation (always present)
 - Self-contained HTML artifact
 
@@ -388,8 +387,8 @@ To achieve the best results, trust creativity and let the philosophy guide the i
 This skill includes helpful templates and documentation:
 
 - **templates/viewer.html**: REQUIRED STARTING POINT for all HTML artifacts.
-  - This is the foundation - contains the exact structure and Anthropic branding
-  - **Keep unchanged**: Layout structure, sidebar organization, Anthropic colors/fonts, seed controls, action buttons
+  - This is the foundation - contains the exact structure and oOh!media branding
+  - **Keep unchanged**: Layout structure, sidebar organization, oOh! colours/Century Gothic font, seed controls, action buttons
   - **Replace**: The p5.js algorithm, parameter definitions, and UI controls in Parameters section
   - The extensive comments in the file mark exactly what to keep vs replace
 
@@ -402,4 +401,4 @@ This skill includes helpful templates and documentation:
 - The **template is the STARTING POINT**, not inspiration
 - The **algorithm is where to create** something unique
 - Don't copy the flow field example - build what the philosophy demands
-- But DO keep the exact UI structure and Anthropic branding from the template
+- But DO keep the exact UI structure and oOh!media branding from the template

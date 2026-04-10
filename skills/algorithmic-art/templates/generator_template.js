@@ -31,7 +31,7 @@ let params = {
     // - Colors: palette arrays
 
     seed: 12345,
-    // define colorPalette as an array -- choose whatever colors you'd like ['#d97757', '#6a9bcc', '#788c5d', '#b0aea5']
+    // define colorPalette as an array using oOh!media brand colours e.g. ['#FF5F2C', '#14172A', '#6A2AE1', '#F2F2F2']
     // Add YOUR parameters here based on your algorithm
 };
 

@@ -54,27 +54,37 @@ Use when no template or reference presentation is available.
 
 ### Before Starting
 
-- **Pick a bold, content-informed color palette**: The palette should feel designed for THIS topic. If swapping your colors into a completely different presentation would still "work," you haven't made specific enough choices.
+- **Use the oOh!media brand palette — always lead with oOh! Orange (`#FF5F2C`)**: Every deck is an oOh! deck. The palette is not chosen per topic — it is always the oOh! brand palette.
 - **Dominance over equality**: One color should dominate (60-70% visual weight), with 1-2 supporting tones and one sharp accent. Never give all colors equal weight.
 - **Dark/light contrast**: Dark backgrounds for title + conclusion slides, light for content ("sandwich" structure). Or commit to dark throughout for a premium feel.
 - **Commit to a visual motif**: Pick ONE distinctive element and repeat it — rounded image frames, icons in colored circles, thick single-side borders. Carry it across every slide.
 
 ### Color Palettes
 
-Choose colors that match your topic — don't default to generic blue. Use these palettes as inspiration:
+Always use the oOh!media brand palette. Never use generic or off-brand colours.
 
-| Theme | Primary | Secondary | Accent |
-|-------|---------|-----------|--------|
-| **Midnight Executive** | `1E2761` (navy) | `CADCFC` (ice blue) | `FFFFFF` (white) |
-| **Forest & Moss** | `2C5F2D` (forest) | `97BC62` (moss) | `F5F5F5` (cream) |
-| **Coral Energy** | `F96167` (coral) | `F9E795` (gold) | `2F3C7E` (navy) |
-| **Warm Terracotta** | `B85042` (terracotta) | `E7E8D1` (sand) | `A7BEAE` (sage) |
-| **Ocean Gradient** | `065A82` (deep blue) | `1C7293` (teal) | `21295C` (midnight) |
-| **Charcoal Minimal** | `36454F` (charcoal) | `F2F2F2` (off-white) | `212121` (black) |
-| **Teal Trust** | `028090` (teal) | `00A896` (seafoam) | `02C39A` (mint) |
-| **Berry & Cream** | `6D2E46` (berry) | `A26769` (dusty rose) | `ECE2D0` (cream) |
-| **Sage Calm** | `84B59F` (sage) | `69A297` (eucalyptus) | `50808E` (slate) |
-| **Cherry Bold** | `990011` (cherry) | `FCF6F5` (off-white) | `2F3C7E` (navy) |
+| Colour           | HEX       | Role                                                    |
+|------------------|-----------|---------------------------------------------------------|
+| oOh! Orange      | `#FF5F2C` | Lead colour — dominant in all decks                     |
+| Moonlight Purple | `#14172A` | Key statement slides, premium moments                   |
+| Urban Grey       | `#F2F2F2` | Backgrounds, section dividers, body copy backgrounds    |
+| Twilight Purple  | `#6A2AE1` | Data viz, infographics, executive decks only            |
+| Standard White   | `#FFFFFF` | Primary text on dark; dominant background in most decks |
+| Ocean Blue       | `#276EF1` | Data viz / infographics (secondary)                     |
+| Coral Peach      | `#FED8B1` | Internal comms, secondary backgrounds                   |
+| Sky Blue         | `#CFE6FA` | Internal comms, secondary backgrounds                   |
+| Desert Yellow    | `#FDBA12` | Data viz / infographics (secondary)                     |
+
+**Deck weight — match orange density to the occasion:**
+- **Touch of Orange** (white dominant, orange accents only) → detailed reports, text-heavy corporate documents
+- **Mid-weight Orange** (balanced orange panels + white content) → standard brand presentations, proposals
+- **Majority Orange** (bold orange throughout) → cover slides, section breakers, events, pull-up banners
+
+**Universal rules:**
+- Cover slides are always orange — regardless of deck weight
+- Key Statement slide: always Moonlight Purple background + white text
+- oOh! logo always present bottom-right on every slide
+- No decorative lines under titles — use whitespace or background colour instead
 
 ### For Each Slide
 
@@ -97,25 +107,23 @@ Choose colors that match your topic — don't default to generic blue. Use these
 
 ### Typography
 
-**Choose an interesting font pairing** — don't default to Arial. Pick a header font with personality and pair it with a clean body font.
+**Use Century Gothic exclusively — no other fonts.**
 
-| Header Font | Body Font |
-|-------------|-----------|
-| Georgia | Calibri |
-| Arial Black | Arial |
-| Calibri | Calibri Light |
-| Cambria | Calibri |
-| Trebuchet MS | Calibri |
-| Impact | Arial |
-| Palatino | Garamond |
-| Consolas | Calibri |
+```
+font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif
+```
 
-| Element | Size |
-|---------|------|
-| Slide title | 36-44pt bold |
-| Section header | 20-24pt bold |
-| Body text | 14-16pt |
-| Captions | 10-12pt muted |
+| Element              | Font            | Size       |
+|----------------------|-----------------|------------|
+| Headings             | CG Regular      | 24pt       |
+| Small headings       | CG Regular      | 16pt       |
+| Body copy            | CG Regular      | 12pt       |
+| Section number       | CG Regular/Bold | 60pt       |
+| Section title        | CG Regular/Bold | 44pt       |
+| Key statement slide  | CG Regular/Bold | 36pt       |
+| Big stats/metrics    | CG Bold         | 48–72pt    |
+| Footnotes            | CG Regular      | min 9pt    |
+| Button text          | CG Bold         | —          |
 
 ### Spacing
 
@@ -128,13 +136,42 @@ Choose colors that match your topic — don't default to generic blue. Use these
 - **Don't repeat the same layout** — vary columns, cards, and callouts across slides
 - **Don't center body text** — left-align paragraphs and lists; center only titles
 - **Don't skimp on size contrast** — titles need 36pt+ to stand out from 14-16pt body
-- **Don't default to blue** — pick colors that reflect the specific topic
+- **Always lead with oOh! Orange** — never use generic blue. Use the oOh!media palette exclusively.
 - **Don't mix spacing randomly** — choose 0.3" or 0.5" gaps and use consistently
 - **Don't style one slide and leave the rest plain** — commit fully or keep it simple throughout
 - **Don't create text-only slides** — add images, icons, charts, or visual elements; avoid plain title + bullets
 - **Don't forget text box padding** — when aligning lines or shapes with text edges, set `margin: 0` on the text box or offset the shape to account for padding
 - **Don't use low-contrast elements** — icons AND text need strong contrast against the background; avoid light text on light backgrounds or dark text on dark backgrounds
 - **NEVER use accent lines under titles** — these are a hallmark of AI-generated slides; use whitespace or background color instead
+
+### Writing for Slides
+
+- Headlines must be **short and impactful** — not full sentences
+- **Bullets over paragraphs** — one idea per slide
+- **Visual over words** — let imagery and data carry the message
+- Tone: self-assured, go-getting, trust-worthy (see brand-guidelines skill)
+- **Sentence case always** — no ALL CAPS, no title case
+- Company name: "oOh!media" on first mention, "oOh!" subsequently
+- No qualifiers: "quite", "fairly", "a bit", "one of"
+
+---
+
+## Photography
+
+- Always use **full-bleed photography** — no borders, no cropped image frames
+- Only use marketing-approved asset photography, quality stock, or brand-enhanced imagery
+- **Never overlay text directly on photography** without marketing approval
+- No colour blocks or gradients over images
+- Preferred: candid, expressive, real audiences — avoid cliché studio shots
+- Images must be bright, rich in colour, and premium quality
+- Where possible, imagery should incorporate oOh! Orange tones (lighting, clothing, environments)
+
+**Photography don'ts:**
+1. Don't crop out assets or cover with colour blocks
+2. Don't use cliché/staged audience photography — use candid, expressive faces
+3. Don't deep-etch assets or use in collage treatment
+4. Don't use cartoon-style illustrations (exceptions for specific events only)
+5. Don't use flat deep-etched imagery on plain backgrounds — layer with circles or graphic devices
 
 ---
 

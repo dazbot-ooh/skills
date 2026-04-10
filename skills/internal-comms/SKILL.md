@@ -4,6 +4,27 @@ description: A set of resources to help me write all kinds of internal communica
 license: Complete terms in LICENSE.txt
 ---
 
+## oOh! Brand Voice
+
+All internal communications must reflect the oOh!media tone of voice:
+
+| Tone pillar    | In practice                                                                                     |
+|----------------|-------------------------------------------------------------------------------------------------|
+| **Self-assured**   | Confident, clear, and succinct. No jargon or over-explaining.                               |
+| **Good-natured**   | Friendly and approachable. No qualifiers ("quite", "fairly", "a bit", "one of").            |
+| **Go-getting**     | Positive and optimistic. Energise the reader. Excite people about the future.               |
+| **Trust-worthy**   | Direct and honest. Get to the point — no flowery language.                                  |
+
+**Grammar rules:**
+- Company name: "oOh!media" on first mention, "oOh!" subsequently
+- Pronouns: Use "we, us, our" to humanise communications
+- No Oxford comma
+- Sentence case for all headings and titles — no title case, no ALL CAPS
+- Use hyphens and en dashes correctly
+- Avoid qualifiers: "one of", "quite", "fairly", "a bit", "a little"
+
+---
+
 ## When to use this skill
 To write internal communications, use this skill for:
 - 3P updates (Progress, Plans, Problems)
